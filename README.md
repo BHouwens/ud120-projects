@@ -1,4 +1,4 @@
-ud120-projects
+ud120-ML
 ==============
 
-Starter project code for students taking Udacity ud120
+Fork of the ud120 Machine Learning code for the Udacity course. Contains all the good stuff you need to get going.
