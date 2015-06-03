@@ -34,6 +34,7 @@ clf.fit(features_train, labels_train)
 pred = clf.predict(features_test)
 acc = accuracy_score(labels_test, pred)
 
+print len(features_train[0])
 print acc
 #########################################################
 
