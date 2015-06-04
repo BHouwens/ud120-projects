@@ -18,5 +18,13 @@
 import pickle
 
 enron_data = pickle.load(open("../final_project/final_project_dataset.pkl", "r"))
+poi_names = open('../final_project/poi_names.txt', 'r')
+counter = 0
+l_counter = 0
 
+for k, v in enron_data.iteritems():
+	if v["poi"]:
+		counter += 1
 
+print counter + 10
+print 10.0 / 28.0
